@@ -1,6 +1,6 @@
 <?php
 
-namespace Vadimushka\OK\Exceptions;
+namespace OK\Exceptions;
 
 class OKOAuthException extends \Exception
 {

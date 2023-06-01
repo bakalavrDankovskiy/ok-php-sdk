@@ -1,9 +1,9 @@
 <?php
 
-namespace Vadimushka\OK\TransportClient\Guzzle;
+namespace OK\TransportClient\Guzzle;
 
-use Vadimushka\OK\TransportClient\TransportClient;
-use Vadimushka\OK\TransportClient\TransportClientResponse;
+use OK\TransportClient\TransportClient;
+use OK\TransportClient\TransportClientResponse;
 
 class GuzzleHttpClient implements TransportClient
 {

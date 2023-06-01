@@ -1,10 +1,10 @@
 <?php
 
-namespace Vadimushka\OK\TransportClient\Curl;
+namespace OK\TransportClient\Curl;
 
-use Vadimushka\OK\TransportClient\TransportClient;
-use Vadimushka\OK\TransportClient\TransportClientResponse;
-use Vadimushka\OK\TransportClient\TransportRequestException;
+use OK\TransportClient\TransportClient;
+use OK\TransportClient\TransportClientResponse;
+use OK\TransportClient\TransportRequestException;
 use function Psy\debug;
 
 class CurlHttpClient implements TransportClient

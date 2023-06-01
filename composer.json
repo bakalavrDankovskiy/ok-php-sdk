@@ -1,5 +1,5 @@
 {
-    "name": "bakalavrDankovskiy/ok-php-sdk",
+    "name": "bakalavrdankovskiy/ok-php-sdk",
     "description": "OK PHP SDK",
     "keywords": ["ok", "sdk"],
     "type": "library",
@@ -14,12 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vadimushka\\OK\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Vadimushka\\OK\\Tests\\": "tests"
+            "OK\\": "src/"
         }
     }
 }

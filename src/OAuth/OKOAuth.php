@@ -1,13 +1,13 @@
 <?php
 
-namespace Vadimushka\OK\OAuth;
+namespace OK\OAuth;
 
-use Vadimushka\OK\Exceptions\OKClientException;
-use Vadimushka\OK\Exceptions\OKOAuthException;
-use Vadimushka\OK\TransportClient\Curl\CurlHttpClient;
-use Vadimushka\OK\TransportClient\TransportClient;
-use Vadimushka\OK\TransportClient\TransportClientResponse;
-use Vadimushka\OK\TransportClient\TransportRequestException;
+use OK\Exceptions\OKClientException;
+use OK\Exceptions\OKOAuthException;
+use OK\TransportClient\Curl\CurlHttpClient;
+use OK\TransportClient\TransportClient;
+use OK\TransportClient\TransportClientResponse;
+use OK\TransportClient\TransportRequestException;
 
 class OKOAuth
 {

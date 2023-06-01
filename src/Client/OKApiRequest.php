@@ -1,15 +1,15 @@
 <?php
 
-namespace Vadimushka\OK\Client;
+namespace OK\Client;
 
-use Vadimushka\OK\Client\OkApiError;
-use Vadimushka\OK\Exceptions\Api\ExceptionMapper;
-use Vadimushka\OK\Exceptions\OkApiException;
-use Vadimushka\OK\Exceptions\OKClientException;
-use Vadimushka\OK\TransportClient\Curl\CurlHttpClient;
-use Vadimushka\OK\TransportClient\TransportClient;
-use Vadimushka\OK\TransportClient\TransportClientResponse;
-use Vadimushka\OK\TransportClient\TransportRequestException;
+use OK\Exceptions\Api\ExceptionMapper;
+use OK\Exceptions\OkApiException;
+use OK\Exceptions\OKClientException;
+use OK\TransportClient\Curl\CurlHttpClient;
+use OK\TransportClient\TransportClient;
+use OK\TransportClient\TransportClientResponse;
+use OK\TransportClient\TransportRequestException;
+use OK\Client\OkApiError;
 
 class OKApiRequest
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vadimushka\OK\Client;
+namespace OK\Client;
 
 class OkApiError
 {

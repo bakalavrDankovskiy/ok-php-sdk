@@ -1,5 +1,5 @@
 <?php
-namespace Vadimushka\OK\OAuth;
+namespace OK\OAuth;
 
 class OKAuthScope
 {

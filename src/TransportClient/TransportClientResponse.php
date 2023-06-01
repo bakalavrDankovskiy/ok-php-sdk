@@ -1,6 +1,6 @@
 <?php
 
-namespace Vadimushka\OK\TransportClient;
+namespace OK\TransportClient;
 
 class TransportClientResponse
 {

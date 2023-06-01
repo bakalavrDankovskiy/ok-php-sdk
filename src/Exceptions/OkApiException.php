@@ -1,8 +1,8 @@
 <?php
 
-namespace Vadimushka\OK\Exceptions;
+namespace OK\Exceptions;
 
-use Vadimushka\OK\Client\OkApiError;
+use OK\Client\OkApiError;
 
 class OkApiException extends \Exception
 {
